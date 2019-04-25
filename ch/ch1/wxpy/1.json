@@ -1,0 +1,2343 @@
+{
+  u
+  'unlabeledLoad': {
+    u
+    '_class': u
+    'jenkins.model.UnlabeledLoadStatistics'
+  },
+  u
+  'jobs': [
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/all-db-doc/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'all-db-doc'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/apply-db-script/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'apply-db-script'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/bds-api/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'bds-api'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/bds-schedule/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'bds-schedule'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/bds-web/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'bds-web'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/bds-web-institution/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'bds-web-institution'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/bds-web-management/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'bds-web-management'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/bumblebee/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'bumblebee'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/cbs-contract/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'cbs-contract'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/check-backend-job-status/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'check-backend-job-status'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-bumblebee/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-bumblebee'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-all-db-doc/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-all-db-doc'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-bds-api/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-bds-api'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-bds-schedule/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-bds-schedule'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-bds-web/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-bds-web'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-bds-web-institution/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-bds-web-institution'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-bds-web-management/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-bds-web-management'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-bohr/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-bohr'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-curie/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-curie'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-dirac/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-dirac'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-fund/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-fund'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-gabor/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-gabor'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-hi/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-hi'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-hulk/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-hulk'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-institution/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-institution'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-iron/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-iron'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-jensen/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-jensen'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-kusch/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-kusch'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-lorentz/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-lorentz'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-market/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-market'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-nambu/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-nambu'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-phillips/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-phillips'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-rainer/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-rainer'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-salam/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-salam'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-spider/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-spider'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-takaaki/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-takaaki'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-thor/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-thor'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-ulam/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-ulam'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-api-wineland/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-api-wineland'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-fi/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-fi'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-fi-admin/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-fi-admin'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-gateway/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-gateway'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-lintest/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-lintest'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-mytest/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-mytest'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-schedule/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-schedule'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-story/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-story'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-tool-user-info/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-tool-user-info'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-web/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-web'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-web-app-marvel/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-web-app-marvel'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-web-home/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-web-home'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-web-institution/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-web-institution'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-web-management/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-web-management'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-web-management-app2/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-web-management-app2'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-web-online-mall/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-web-online-mall'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-web-platform/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-web-platform'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-web-style/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-web-style'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-emall-web-style-guide-angular/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-emall-web-style-guide-angular'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-file-share/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-file-share'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbdev-jenkins_demo/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbdev-jenkins_demo'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-bds-api/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-bds-api'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-bds-web/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-bds-web'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-bds-web-institution/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-bds-web-institution'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-bds-web-management/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-bds-web-management'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-bohr/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-bohr'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-curie/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-curie'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-dirac/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-dirac'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-einstein/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-einstein'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-fund/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-fund'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-gabor/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-gabor'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-institution/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-institution'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-iron/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-iron'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-jensen/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-jensen'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-kusch/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-kusch'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-lorentz/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-lorentz'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-market/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-market'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-phillips/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-phillips'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-rainer/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-rainer'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-salam/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-salam'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-takaaki/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-takaaki'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-ulam/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-ulam'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-api-wineland/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-api-wineland'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-fi/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-fi'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-fi-admin/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-fi-admin'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-web/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-web'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-web-app-marvel/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-web-app-marvel'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-web-home/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-web-home'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-web-institution/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-web-institution'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-web-management/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-web-management'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-web-management-app2/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-web-management-app2'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-web-online-mall/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-web-online-mall'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emall-web-platform/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emall-web-platform'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-cmbqa-emallapi/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-cmbqa-emallapi'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-dev-emall-backend/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-dev-emall-backend'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-dev-emall-backend-down/',
+      u
+      'color': u
+      'aborted',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-dev-emall-backend-down'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy-t/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy-t'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/deploy_relation_between_iteration_and_story/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'deploy_relation_between_iteration_and_story'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/e2e-test/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'e2e-test'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-bohr/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-bohr'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-curie/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-curie'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-dirac/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-dirac'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-einstein/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-einstein'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-fund/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-fund'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-gabor/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-gabor'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-hi/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-hi'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-hulk/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-hulk'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-institution/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-institution'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-iron/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-iron'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-jensen/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-jensen'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-kusch/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-kusch'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-lib-commons/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-lib-commons'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-lib-gateway-client/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-lib-gateway-client'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-lorentz/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-lorentz'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-market/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-market'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-nambu/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-nambu'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-phillips/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-phillips'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-rainer/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-rainer'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-salam/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-salam'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-spider/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-spider'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-takaaki/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-takaaki'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-thor/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-thor'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-ulam/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-ulam'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-api-wineland/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-api-wineland'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-contracts/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-contracts'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-gateway/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-gateway'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-lintest/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-lintest'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-mytest/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-mytest'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-plugin-archive-migration-script/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-plugin-archive-migration-script'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-schedule/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-schedule'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-tool-user-info/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-tool-user-info'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web-app-marvel/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web-app-marvel'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web-commons/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web-commons'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web-home/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web-home'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web-institution/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web-institution'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web-management/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web-management'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web-management-app2/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web-management-app2'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web-online-mall/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web-online-mall'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web-platform/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web-platform'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web-style/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web-style'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/emall-web-style-guide-angular/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'emall-web-style-guide-angular'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/fate-contract/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'fate-contract'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/file-share/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'file-share'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/filter_card_for_bumblebee/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'filter_card_for_bumblebee'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/jenkins_demo/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'jenkins_demo'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/LR15.02_EMall_file_remove/',
+      u
+      'color': u
+      'notbuilt',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'LR15.02_EMall_file_remove'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/LR15.09_Automotive_GIt_Remote_Sync/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'hudson.model.FreeStyleProject',
+      u
+      'name': u
+      'LR15.09_Automotive_GIt_Remote_Sync'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/md-to-html/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'md-to-html'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/refresh-index-for-table-document/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'refresh-index-for-table-document'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/relation_between_iteration_and_story/',
+      u
+      'color': u
+      'blue_anime',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'relation_between_iteration_and_story'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/shadow/',
+      u
+      'color': u
+      'notbuilt',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'shadow'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/skyarena-contract/',
+      u
+      'color': u
+      'blue',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'skyarena-contract'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/test/',
+      u
+      'color': u
+      'notbuilt',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'test'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/job/test_jenkinsfile/',
+      u
+      'color': u
+      'red',
+      u
+      '_class': u
+      'org.jenkinsci.plugins.workflow.job.WorkflowJob',
+      u
+      'name': u
+      'test_jenkinsfile'
+    }
+  ],
+  u
+  'nodeName': u
+  '',
+  u
+  'views': [
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/view/Tools/',
+      u
+      '_class': u
+      'hudson.model.ListView',
+      u
+      'name': u
+      'Tools'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/',
+      u
+      '_class': u
+      'hudson.model.AllView',
+      u
+      'name': u
+      'all'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/view/build-backend/',
+      u
+      '_class': u
+      'hudson.model.ListView',
+      u
+      'name': u
+      'build-backend'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/view/build-frontend/',
+      u
+      '_class': u
+      'hudson.model.ListView',
+      u
+      'name': u
+      'build-frontend'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/view/bumblebee/',
+      u
+      '_class': u
+      'hudson.model.ListView',
+      u
+      'name': u
+      'bumblebee'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/view/current_iteration/',
+      u
+      '_class': u
+      'com.smartcodeltd.jenkinsci.plugins.buildmonitor.BuildMonitorView',
+      u
+      'name': u
+      'current_iteration'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/view/deploy-cmbdev/',
+      u
+      '_class': u
+      'hudson.model.ListView',
+      u
+      'name': u
+      'deploy-cmbdev'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/view/deploy-cmbqa/',
+      u
+      '_class': u
+      'hudson.model.ListView',
+      u
+      'name': u
+      'deploy-cmbqa'
+    },
+    {
+      u
+      'url': u
+      'http://99.12.42.153:8080/view/monitor/',
+      u
+      '_class': u
+      'com.smartcodeltd.jenkinsci.plugins.buildmonitor.BuildMonitorView',
+      u
+      'name': u
+      'monitor'
+    }
+  ],
+  u
+  'quietingDown': False,
+  u
+  'assignedLabels': [
+    {
+      u
+      'name': u
+      'master'
+    }
+  ],
+  u
+  'nodeDescription': u
+  'the master Jenkins node',
+  u
+  'useCrumbs': False,
+  u
+  'numExecutors': 0,
+  u
+  'mode': u
+  'EXCLUSIVE',
+  u
+  'slaveAgentPort': 50000,
+  u
+  'overallLoad': {},
+  u
+  '_class': u
+  'hudson.model.Hudson',
+  u
+  'useSecurity': True,
+  u
+  'primaryView': {
+    u
+    'url': u
+    'http://99.12.42.153:8080/',
+    u
+    '_class': u
+    'hudson.model.AllView',
+    u
+    'name': u
+    'all'
+  },
+  u
+  'description': None
+}
