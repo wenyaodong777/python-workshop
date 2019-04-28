@@ -38,7 +38,6 @@ class CmbTracker():
         Timer(5, self.monitor).start()
 
     def monitor(self):
-        # self.sender.send(self.groups , 'test')
         # Story
         response = self.restTemplate.postCmbTracker(self.storyApi)
         self.handleData(json.loads(response.content)["content"]["itemList"], "story")

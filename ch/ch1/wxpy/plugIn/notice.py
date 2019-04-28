@@ -23,11 +23,16 @@ class Notice():
     def timecard(self):
         self.sender.send(self.groups, u"【报公/Timecard提醒】小哥哥，小姐姐们，今天周五要报公/填Timecard啦！")
 
+    def yangchaoyue(self):
+        self.sender.send(self.groups, u"【杨超越】小哥哥，小姐姐，注意眼睛休息哈！")
+
     def start(self):
         schedule.every().day.at('08:20').do(self.checkIn)
         schedule.every().day.at('18:00').do(self.checkOut)    
         schedule.every().friday.at('11:42').do(self.timecard)
+        schedule.every(1).hours.do(self.yangchaoyue)
 
-# print datetime.datetime.now().weekday()
-# print datetime.date(2019, 4 , 1).weekday()
-# print datetime.date(2019, 4 , 7).weekday()
+        while True:
+            schedule.run_pending()
+        time.sleep(1)
+
