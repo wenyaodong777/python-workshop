@@ -20,18 +20,20 @@ def print_others(msg):
         return auto_reply(txt.replace(u"@小鸡", ""))
 
 
-# 调用图灵机器人API，发送消息并获得机器人的回复
+# 调用青人客机器人API，发送消息并获得机器人的回复
 def auto_reply(text):
-    print (text)
-    url = "http://api.qingyunke.com/api.php?key=free&appid=0&msg=" + text
-    r = requests.get(url)
-    result = json.loads(r.content)
-    print(result)
+    result = json.loads(
+                requests.get("http://api.qingyunke.com/api.php?key=free&appid=0&msg=" + text).content
+            )
     return result["content"].replace("{br}", "\r\n")
 
+print bot1.groups()
 
 sz_track = bot1.groups().search(u'招赢通Test Track')[0]
-groups = [sz_track]
+# sz_track = bot1.groups().search(u'123456')[0]
+# groups = [sz_track]
+groups = bot1.groups().search(u'123456')
+print groups
 
 if __name__ == "__main__":
     CmbTracker(groups).start()
