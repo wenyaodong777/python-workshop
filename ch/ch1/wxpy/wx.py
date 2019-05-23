@@ -11,6 +11,7 @@ sys.path.append("helper")
 from notice import Notice
 from cmbtracker import CmbTracker
 from session import Session
+from storyAttachment import StoryAttachment
 
 bot1 = Bot(cache_path=True)
 
@@ -58,6 +59,6 @@ if __name__ == "__main__":
     # 新开发的组件，继续往该数组当中加，
     # 新组件的启动函数统一为start
     # 新组件的监控函数统一为monitor，组件匹配消息的正则表达式为reg，该方法参数为msg文本
-    plugIns.extend([CmbTracker(groups), Notice(groups), Session(groups)])
+    plugIns.extend([CmbTracker(groups), Notice(groups), Session(groups), StoryAttachment()])
     start()
     embed()
