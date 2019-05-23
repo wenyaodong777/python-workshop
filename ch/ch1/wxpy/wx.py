@@ -10,16 +10,17 @@ sys.path.append("plugIn")
 sys.path.append("helper")
 from notice import Notice
 from cmbtracker import CmbTracker
+from session import Session
 
-bot1 = Bot(console_qr=True, cache_path=True)
+bot1 = Bot(cache_path=True)
 
 @bot1.register()
 def print_others(msg):
-    print (msg)
+    print(msg)
     if msg.is_at:
         txt = msg.text + ""
-        if filter(msg):
-            return;
+        if monitor(msg):
+            return
         return auto_reply(txt.replace(u"@小鸡", ""))
 
 
@@ -30,22 +31,23 @@ def auto_reply(text):
             )
     return result["content"].replace("{br}", "\r\n")
 
-sz_track = bot1.groups().search(u'招赢通SZ Track')[0]
+sz_track = bot1.groups().search(u'测试')[0]
 # 可以把需要的群组加入到groups当中
 groups = [sz_track]
+print groups
 
-plugIns=[];
+plugIns=[]
 
 def start():
     for plugIn in plugIns:
-        plugIn.start();
+        plugIn.start()
 
 # 监控并分发消息
 def monitor(msg):
     for plugIn in plugIns:
         try:
             if hasattr(plugIn , "monitor"):
-                if re.search(plugIn.reg , msg, re.I) != None:
+                if re.search(plugIn.reg , msg.text, re.I) != None:
                     plugIn.monitor(msg)
                     return True
         except AttributeError as e:
@@ -56,6 +58,6 @@ if __name__ == "__main__":
     # 新开发的组件，继续往该数组当中加，
     # 新组件的启动函数统一为start
     # 新组件的监控函数统一为monitor，组件匹配消息的正则表达式为reg，该方法参数为msg文本
-    plugIns.extend([CmbTracker(groups), Notice(groups)]);    
-    start();
+    plugIns.extend([CmbTracker(groups), Notice(groups), Session(groups)])
+    start()
     embed()
